@@ -1,11 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon ssr-server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "server": "node ssr-server.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
