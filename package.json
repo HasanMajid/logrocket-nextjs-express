@@ -3,8 +3,7 @@
   "scripts": {
     "dev": "nodemon ssr-server.js",
     "build": "next build",
-    "start": "node ssr-server.js",
-    "server": "node ssr-server.js"
+    "start": "NODE_ENV=production node ssr-server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
